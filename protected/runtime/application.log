@@ -1,0 +1,612 @@
+2013/03/23 16:19:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:19:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:19:55 [error] [php] Undefined index: method (D:\webroot\teaPlaza.php\protected\modules\api\controllers\SiteController.php:14)
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\webroot\teaPlaza.php\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\webroot\teaPlaza.php\public\index.php(18): CWebApplication->run()
+REQUEST_URI=/api
+in D:\webroot\teaPlaza.php\protected\modules\api\controllers\SiteController.php (14)
+in D:\webroot\teaPlaza.php\public\index.php (18)
+2013/03/23 16:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:30:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:31:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:32:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:33:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:33:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:34:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:35:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:36:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:37:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/23 16:37:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\public\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/03/29 16:37:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/07 16:52:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/07 16:53:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/07 16:53:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/07 16:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/04/12 12:49:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 14:30:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 14:30:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "upload"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('upload')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/upload
+---
+2013/05/03 14:30:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:11:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:11:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:16:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:16:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:20:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:20:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'teaPlaza.tp_appchange' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tp_appchange`.
+in D:\webroot\teaPlaza.php\index.php (18)
+2013/05/03 16:20:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:23:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection 无法开启数据库连线: SQLSTATE[HY000] [1045] Access denied for user 'teaPlaza'@'123.232.103.195' (using password: YES)' in D:\webroot\teaPlaza.php\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\webroot\teaPlaza.php\yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\webroot\teaPlaza.php\yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\webroot\teaPlaza.php\yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 D:\webroot\teaPlaza.php\yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 D:\webroot\teaPlaza.php\yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 D:\webroot\teaPlaza.php\yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 D:\webroot\teaPlaza.php\yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 D:\webroot\teaPlaza.php\yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 D:\webroot\teaPlaza.php\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\webroot\teaPlaza.php\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\webroot\teaPlaza.php\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#16 {main}
+REQUEST_URI=/gii/model
+HTTP_REFERER=http://teaplaza.local.chenapp.com/gii/model
+---
+2013/05/03 16:23:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:28:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 16:28:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 17:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 17:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 17:09:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/03 17:12:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\webroot\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\webroot\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\webroot\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/07 10:33:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 F:\wamp\www\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\wamp\www\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/07 10:33:28 [error] [php] Undefined index: method (F:\wamp\www\teaPlaza.php\protected\modules\api\controllers\SiteController.php:14)
+Stack trace:
+#0 F:\wamp\www\teaPlaza.php\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 F:\wamp\www\teaPlaza.php\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 F:\wamp\www\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 F:\wamp\www\teaPlaza.php\index.php(18): CWebApplication->run()
+REQUEST_URI=/api
+in F:\wamp\www\teaPlaza.php\protected\modules\api\controllers\SiteController.php (14)
+in F:\wamp\www\teaPlaza.php\index.php (18)
+2013/05/07 10:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 F:\wamp\www\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\wamp\www\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/07 10:33:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 F:\wamp\www\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\wamp\www\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/05/07 16:15:02 [error] [php] Undefined index: format (F:\wamp\www\teaPlaza.php\protected\modules\api\controllers\SiteController.php:16)
+Stack trace:
+#0 F:\wamp\www\teaPlaza.php\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 F:\wamp\www\teaPlaza.php\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 F:\wamp\www\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 F:\wamp\www\teaPlaza.php\index.php(18): CWebApplication->run()
+REQUEST_URI=/api?method=app.getImageAdd&apikey=b4a4ef31a8b9acd866ef2dfb754ce3e6&num=8format=json
+in F:\wamp\www\teaPlaza.php\protected\modules\api\controllers\SiteController.php (16)
+in F:\wamp\www\teaPlaza.php\index.php (18)
+2013/05/07 16:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 F:\wamp\www\teaPlaza.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 F:\wamp\www\teaPlaza.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 F:\wamp\www\teaPlaza.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/20 17:01:06 [error] [php] Undefined index: method (D:\wamp\www\wapapi.maimaicha.com\protected\modules\api\controllers\SiteController.php:14)
+Stack trace:
+#0 D:\wamp\www\wapapi.maimaicha.com\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 D:\wamp\www\wapapi.maimaicha.com\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 D:\wamp\www\wapapi.maimaicha.com\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 D:\wamp\www\wapapi.maimaicha.com\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\wamp\www\wapapi.maimaicha.com\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\wamp\www\wapapi.maimaicha.com\index.php(18): CWebApplication->run()
+REQUEST_URI=/api
+in D:\wamp\www\wapapi.maimaicha.com\protected\modules\api\controllers\SiteController.php (14)
+in D:\wamp\www\wapapi.maimaicha.com\index.php (18)
+2013/06/21 08:43:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\wamp\www\wapapi.maimaicha.com\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wamp\www\wapapi.maimaicha.com\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wamp\www\wapapi.maimaicha.com\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wamp\www\wapapi.maimaicha.com\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
