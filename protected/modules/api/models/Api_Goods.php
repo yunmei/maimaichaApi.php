@@ -168,8 +168,8 @@
  	/*
  	 * 根据商品ID获取商品intro（详情）
  	 */
- public function getIntroByGoodsId($args)
- {
+ 	public function getIntroByGoodsId($args)
+ 	{
  		if(isset($_POST['goodsId']))
  		{
  			$goodsId = strip_tags(trim($_POST['goodsId']));
@@ -188,10 +188,34 @@
  		}else{
  			throw new CException('未查询到数据',ApiError::FAIL);
  		}
- }
+ 	}
  
- 
- 
+  	/*
+ 	 * 根据商品ID获取商品 评论（comment）
+ 	 */
+ 	public function getCommentByGoodsId($args)
+ 	{
+ 		if(isset($_POST['goodsId']))
+ 		{
+ 			$goodsId = strip_tags(trim($_POST['goodsId']));
+ 		}else{
+ 			throw new CException('缺少goodsId参数',ApiError::METHOD_INVALID);
+ 		}
+ 		$criteria = new CDbCriteria();
+ 		$criteria->addColumnCondition(array('goods_id'=>$goodsId));
+ 		$comment = GoodsComment::model()->find($criteria);
+ 		$array = array();
+ 		if($comment)
+ 		{
+ 			$array['author'] = $comment['author'];
+ 			$array['comment'] = $comment['comment'];
+ 			$array['time'] = date('Y-m-d',$comment['time']);
+ 			$data = array('errorCode' => ApiError::SUCCESS, 'errorMessage'=>'success', 'result'=>array($array));
+ 			return $data;
+ 		}else{
+ 			throw new CException('未查询到数据',ApiError::FAIL);
+ 		}
+ 	}
  
  
  
