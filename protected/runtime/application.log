@@ -610,3 +610,68 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/06/21 14:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\root\GitHub\maimaichaApi.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\root\GitHub\maimaichaApi.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/21 15:23:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by buy_count desc limit 0,1' at line 1. The SQL statement executed was: SELECT * FROM `sdb_goods` `t` WHERE order by buy_count desc limit 0,1.
+in D:\root\GitHub\maimaichaApi.php\protected\modules\api\controllers\SiteController.php (13)
+in D:\root\GitHub\maimaichaApi.php\index.php (18)
+2013/06/21 15:23:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand 无法执行 SQL 语句: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by buy_count desc limit 0,1' at line 1. The SQL statement executed was: SELECT * FROM `sdb_goods` `t` WHERE order by buy_count desc limit 0,1' in D:\root\GitHub\maimaichaApi.php\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\root\GitHub\maimaichaApi.php\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\root\GitHub\maimaichaApi.php\yii\framework\db\ar\CActiveRecord.php(1287): CDbCommand->queryAll()
+#2 D:\root\GitHub\maimaichaApi.php\yii\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\root\GitHub\maimaichaApi.php\protected\modules\api\controllers\SiteController.php(13): CActiveRecord->findAll('order by buy_co...')
+#4 D:\root\GitHub\maimaichaApi.php\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#5 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#9 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/site/index')
+#10 D:\root\GitHub\maimaichaApi.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\root\GitHub\maimaichaApi.php\index.php(18): CApplication->run()
+#12 {main}
+REQUEST_URI=/api
+---
+2013/06/21 15:28:20 [error] [exception.CException] exception 'CException' with message '属性 "Goods.id" 未被定义.' in D:\root\GitHub\maimaichaApi.php\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\root\GitHub\maimaichaApi.php\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id')
+#1 D:\root\GitHub\maimaichaApi.php\yii\framework\base\CModel.php(593): CActiveRecord->__get('id')
+#2 D:\root\GitHub\maimaichaApi.php\protected\modules\api\controllers\SiteController.php(19): CModel->offsetGet('id')
+#3 D:\root\GitHub\maimaichaApi.php\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#8 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/site/index')
+#9 D:\root\GitHub\maimaichaApi.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\root\GitHub\maimaichaApi.php\index.php(18): CApplication->run()
+#11 {main}
+REQUEST_URI=/api
+---
+2013/06/21 15:37:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "favicon.ico"。' in D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\root\GitHub\maimaichaApi.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\root\GitHub\maimaichaApi.php\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/21 16:45:52 [error] [php] Undefined offset: 0 (D:\root\GitHub\maimaichaApi.php\protected\modules\api\models\Api_Goods.php:22)
+Stack trace:
+#0 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(287): SiteController->runAction()
+#2 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#4 D:\root\GitHub\maimaichaApi.php\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#5 D:\root\GitHub\maimaichaApi.php\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\root\GitHub\maimaichaApi.php\index.php(18): CWebApplication->run()
+REQUEST_URI=/api
+in D:\root\GitHub\maimaichaApi.php\protected\modules\api\models\Api_Goods.php (22)
+in D:\root\GitHub\maimaichaApi.php\protected\modules\api\controllers\SiteController.php (36)
+in D:\root\GitHub\maimaichaApi.php\index.php (18)

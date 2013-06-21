@@ -90,13 +90,13 @@ class ApiBase
 	        throw new CException('缺少apikey参数', ApiError::APIKEY_NO_EXIST);
 		$criteria = new CDbCriteria();
 		$criteria->addColumnCondition(array('state'=>STATE_ENABLED, 'apikey'=>$apiKey));
-		$userapi = UserApi::model()->find($criteria);
-		if (null === $userapi) {
+		$apikey = ApiKey::model()->find($criteria);
+		if (null === $apikey) {
 			throw new CException('apikey 不可用', ApiError::APIKEY_INVALID);
 		} else {
-			$userapi->request_nums++;
-			$userapi->save(true, array('request_nums'));
-			return $userapi->user_id;
+			$apikey->request_nums++;
+			$apikey->save(true, array('request_nums'));
+			return $apikey->user_id;
 		}
 	}
 	

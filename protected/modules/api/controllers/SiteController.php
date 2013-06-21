@@ -11,23 +11,23 @@ class SiteController extends Controller
 	public function actionIndex()
 	{
 	    $args = $_POST;
-	    $method = strip_tags(trim($args['method']));
-	    $apikey = strip_tags(trim($args['apikey']));
-	    $format = ApiBase::checkFormat($args['format']);
-	    
-	    try {
-	        ApiBase::checkApiKey($apikey);
-	    } catch (CException $e) {
-	        $data = array('errorCode'=>$e->getCode(), 'errorMessage'=>$e->getMessage());
-	        ApiBase::renderData($data, $format);
-	        exit(0);
-	    }
+	    $method = strip_tags(trim($args['act']));
+	   // $apikey = strip_tags(trim($args['apikey']));
+	    //$format = ApiBase::checkFormat($args['format']);
+	    $format = 'json';
+//	    try {
+//	        ApiBase::checkApiKey($apikey);
+//	    } catch (CException $e) {
+//	        $data = array('errorCode'=>$e->getCode(), 'errorMessage'=>$e->getMessage());
+//	        ApiBase::renderData($data, $format);
+//	        exit(0);
+//	    }
 	    
 	    try {
             list($class, $method) = ApiBase::checkMethod($method);
 	    } catch (CException $e) {
 	        $data = array('errorCode'=>$e->getCode(), 'errorMessage'=>$e->getMessage());
-	        ApiBase::renderData($data, $format);
+	        //ApiBase::renderData($data, $format);
 	        exit(0);
 	    }
 	    
@@ -37,22 +37,9 @@ class SiteController extends Controller
 	        ApiBase::renderData($data, $format);
 	    }  catch (CException $e) {
 	        $data = array('errorCode'=>$e->getCode(), 'errorMessage'=>$e->getMessage());
-	        ApiBase::renderData($data, $format);
+	       // ApiBase::renderData($data, $format);
 	        exit(0);
 	    }
 	}
-	/*
-	 * weixintest
-	 */
-	public function actionWeixin()
-	{
-		define("TOKEN", "dingfuchang");
-		$wechatObj = new wechatCallbackapiTest();
-		if(isset($_POST))
-		{
-			$wechatObj->responseMsg();
-		}
-		$wechatObj->valid();
 
-	}
 }

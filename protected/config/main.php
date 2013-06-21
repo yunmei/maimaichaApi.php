@@ -7,10 +7,9 @@
 // CWebApplication properties can be configured here.
 require(dirname(__FILE__) . DS . 'define.php');
 $params = require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'params.php');
-
 return array(
 	'id' => 'teaPlaza',
-	'name'=>'茶广场',
+	'name'=>'买买茶手机端',
 	'basePath'=>dirname(__FILE__). DIRECTORY_SEPARATOR .'..',
 	'charset' => 'utf-8',
     'language' => 'zh_cn',
@@ -29,7 +28,7 @@ return array(
 		'api' => array(),
 		'gii' => array(
 			'class' => 'system.gii.GiiModule',
-			'password' => 'teaPlaza',
+			'password' => 'admin',
 		)
 	),
 
