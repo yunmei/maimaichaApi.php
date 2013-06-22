@@ -9,31 +9,37 @@
 class Api_User
 {
 	/**
-	 * 获取一个已登陆用户的Session
+	 * 用户登录，返回用户ID和session
 	 * @version 1.0
 	 */
-	public function getSid($args, $format)
+	public function login($args)
 	{
-		$user = ApiBase::checkUserPw($format);
-		$user->last_login_time = time();
-		$user->last_login_ip = $_SERVER['REMOTE_ADDR'];
-		$user->login_nums++;
-		$user->save();
-		
-		$session = new UserSession();
-		$session->user_id = $user->id;
-		$session->session = md5($user->id . time());
-		$session->active_ip = $_SERVER['REMOTE_ADDR'];
-		$session->active_time = time() + 3600*12;
-		$session->active_sign = ApiBase::getActiveSign();
-		if($session->save()) {
-			$data = array('errorCode' => ApiError::SUCCESS, 'errorMessage' => '', 'result' => array(
-				'uid' => $user->id,
-				'sid' => $session->session
-			));
-			return $data;
+		$criteria = new CDbCriteria();
+		$criteria ->addColumnCondition(array('email'=>strip_tags(trim($_POST['email']))));
+		$user = User::model()->find($criteria);
+		if($user['member_id'])
+		{
+			$password = $user['password'];
+			if($password == md5(strip_tags(trim($_POST['password']))))
+			{
+				$session = Session::model()->find("member_id = '".$user['member_id']."'");
+				if($session['id'])
+				{
+					$session['session']= md5(time().rand(1,99));
+					$session->save();
+					$data = array('userId'=>$user['member_id'],'session'=>$session['session']);
+				}else{
+					$session = new Session();
+					$session['session']= md5(time().rand(1,99));
+					$session['member_id'] = $user['member_id'];
+					$session->save();
+					$data = array('userId'=>$user['member_id'],'session'=>$session['session']);
+				}
+				return array('errorCode' => ApiError::SUCCESS, 'errorMessage'=>'success', 'result'=>array($data));
+			}
+		}else{
+			throw new CException('该邮箱不存在',ApiError::METHOD_INVALID);
 		}
-		return ApiBase::$fail;
 	}
 	
 	/**
@@ -42,38 +48,32 @@ class Api_User
 	 */
 	public function register($args, $format)
 	{
-		$username = strip_tags(trim($_GET['username']));
-		$password = trim($_GET['password']);
-		$email = strip_tags(trim($_GET['email']));
-		if(!$username || !$password) {
-			return ApiBase::$fail;
-		}
-		// 这里需要往ucenter里进行注册
-		$criteria = new CDbCriteria();
-		$criteria->addColumnCondition(array('username'=>$username));
-		$user = User::model()->find($criteria);
-		if(null === $user) {
-			$criteria = new CDbCriteria();
-			$criteria->addColumnCondition(array('email'=>$email));
-			$user = User::model()->find($criteria);
-		} else {
-			$data = array('errorCode' => ApiError::USER_EXISTS, 'errorMessage'=>'用户已存在');
-		}
-		if(null === $user) {
-			$user = new User();
-			$user->username = $username;
-			$user->password = $password;
-			$user->email = $email;
-			$user->state = STATE_ENABLED;
-			if($user->save()) {
-				return ApiBase::$success;
-			} else {
-				return ApiBase::$fail;
+		if(isset($_POST['email']))
+		{
+			$user = User::model()->find("email = '".strip_tags(trim($_POST['email']."'")));
+			if($user['member_id'])
+			{
+				throw new CException('该邮箱已经存在',ApiError::METHOD_INVALID);
 			}
-		} else {
-			$data = array('errorCode' => ApiError::USER_EMAIL_EXISTS, 'errorMessage'=>'邮箱已存在');
+			$user = new User();
+			$nameStr = 'mobilephoneUser'.time();
+			$user['email'] = strip_tags(trim($_POST['email']));
+			$user['uname'] = $nameStr;
+			$user['password'] = md5(strip_tags(trim($_POST['password'])));
+			$array = array();
+			if($user->save())
+			{
+				$session = new Session();
+				$session['member_id'] = $user['member_id'];
+				$session['session'] = md5(time().rand(1,99));
+				if($session->save())
+				{
+					$array = array('userId'=>$user['member_id'],'session'=>$session['session']);
+					$data = array('errorCode' => ApiError::SUCCESS, 'errorMessage'=>'success', 'result'=>array($array));
+					return $data;
+				}	
+			}
 		}
-		return $data;
 	}
 
 	/**
