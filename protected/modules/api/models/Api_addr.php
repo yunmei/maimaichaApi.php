@@ -1,5 +1,5 @@
 <?php
- class	Api_addr
+ class	Api_Addr
 {
 	/*
 	 * 获取用户收货信息
@@ -22,6 +22,7 @@
 					$array[$k]['addr']	 = $v['addr'];
 					$array[$k]['zip']	 = $v['zip'];
 					$array[$k]['mobile']	 = $v['mobile'];
+					$array[$k]['name'] = $v['name'];
 				}
 				$data = array('errorCode' => ApiError::SUCCESS, 'errorMessage'=>'success', 'result'=>array($array));
 				return $data;
@@ -44,10 +45,12 @@
 			$addr['addr'] =  strip_tags(trim($_POST['addr']));
 			$addr['zip'] =  strip_tags(trim($_POST['zip']));
 			$addr['mobile'] = strip_tags(trim($_POST['mobile']));
+			$addr['name'] = strip_tags(trim($_POST['name']));
 			if($addr->save())
 			{
 				$array = array();
 				$data = array('errorCode' => ApiError::SUCCESS, 'errorMessage'=>'success', 'result'=>array($array));
+				return $data;
 			}else{
 				throw new CException('添加失败',ApiError::METHOD_INVALID);
 			}	

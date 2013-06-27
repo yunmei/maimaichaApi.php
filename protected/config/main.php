@@ -49,7 +49,7 @@ return array(
             'rules' => array(
 		        '/' => 'site/index',
 				'api' => 'api/site/index',
-				'weixin'=>'api/site/weixin'
+				'alipay'=>'api/site/alipay'
             ),
 		),
 		
@@ -61,7 +61,7 @@ return array(
 			'password' => 'newshopex',
 			'charset' => 'utf8',
 			'persistent' => true,
-		    'tablePrefix' => 'sdb_'
+		    'tablePrefix' => 'sdb_',
 		),
 
 		'errorHandler'=>array(

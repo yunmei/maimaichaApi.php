@@ -1,21 +1,24 @@
 <?php
 
 /**
- * This is the model class for table "{{order_pmt}}".
+ * This is the model class for table "{{order_log}}".
  *
- * The followings are the available columns in table '{{order_pmt}}':
- * @property string $pmt_id
+ * The followings are the available columns in table '{{order_log}}':
+ * @property integer $log_id
  * @property string $order_id
- * @property string $pmt_amount
- * @property string $pmt_memo
- * @property string $pmt_describe
+ * @property integer $op_id
+ * @property string $op_name
+ * @property string $log_text
+ * @property string $acttime
+ * @property string $behavior
+ * @property string $result
  */
-class SdbOrder extends CActiveRecord
+class OrderLog extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return SdbOrder the static model class
+	 * @return OrderLog the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -27,7 +30,7 @@ class SdbOrder extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return '{{order_pmt}}';
+		return '{{order_log}}';
 	}
 
 	/**
@@ -38,11 +41,15 @@ class SdbOrder extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('pmt_id, order_id, pmt_amount', 'length', 'max'=>20),
-			array('pmt_memo, pmt_describe', 'safe'),
+			array('op_id', 'numerical', 'integerOnly'=>true),
+			array('order_id, behavior', 'length', 'max'=>20),
+			array('op_name', 'length', 'max'=>30),
+			array('acttime', 'length', 'max'=>10),
+			array('result', 'length', 'max'=>7),
+			array('log_text', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('pmt_id, order_id, pmt_amount, pmt_memo, pmt_describe', 'safe', 'on'=>'search'),
+			array('log_id, order_id, op_id, op_name, log_text, acttime, behavior, result', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,11 +70,14 @@ class SdbOrder extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'pmt_id' => 'Pmt',
+			'log_id' => 'Log',
 			'order_id' => 'Order',
-			'pmt_amount' => 'Pmt Amount',
-			'pmt_memo' => 'Pmt Memo',
-			'pmt_describe' => 'Pmt Describe',
+			'op_id' => 'Op',
+			'op_name' => 'Op Name',
+			'log_text' => 'Log Text',
+			'acttime' => 'Acttime',
+			'behavior' => 'Behavior',
+			'result' => 'Result',
 		);
 	}
 
@@ -82,11 +92,14 @@ class SdbOrder extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('pmt_id',$this->pmt_id,true);
+		$criteria->compare('log_id',$this->log_id);
 		$criteria->compare('order_id',$this->order_id,true);
-		$criteria->compare('pmt_amount',$this->pmt_amount,true);
-		$criteria->compare('pmt_memo',$this->pmt_memo,true);
-		$criteria->compare('pmt_describe',$this->pmt_describe,true);
+		$criteria->compare('op_id',$this->op_id);
+		$criteria->compare('op_name',$this->op_name,true);
+		$criteria->compare('log_text',$this->log_text,true);
+		$criteria->compare('acttime',$this->acttime,true);
+		$criteria->compare('behavior',$this->behavior,true);
+		$criteria->compare('result',$this->result,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

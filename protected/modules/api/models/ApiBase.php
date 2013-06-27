@@ -100,27 +100,6 @@ class ApiBase
 		}
 	}
 	
-	/**
-	 * 用户名和密码是否正确
-	 * @return 用户对象
-	 */
-	public static function checkUserPw($format)
-	{
-		$username = strip_tags(trim($_GET['username']));
-		$password = strip_tags(trim($_GET['password']));
-		// 这里需要和ucenter进行用户认证
-		$criteria = new CDbCriteria();
-		$criteria->select = 'id, username, login_nums';
-		$criteria->addColumnCondition(array('username'=>$username, 'password'=>$password, 'state'=>STATE_ENABLED));
-		$user = User::model()->find($criteria);
-		if(null === $user) {
-		    $data = array('errorCode' => ApiError::USER_CHECK_INVALID, 'errorMessage'=>'用户验证失败');
-			self::renderData($data, $format);
-		} else {
-			return $user;
-		}
-		exit(0);
-	}
 	
 	/**
 	 * 数组转化为xml

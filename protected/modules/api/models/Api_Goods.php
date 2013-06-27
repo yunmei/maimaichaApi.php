@@ -70,7 +70,7 @@
  	}
  	
  	/*
- 	* 获取最新上架商品
+ 	* 获取tuijian商品
  	*/
  	public function getRecommendList($args)
  	{

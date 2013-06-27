@@ -5,9 +5,11 @@ class SiteController extends Controller
 
 	public function actionIndex()
 	{
-		phpinfo();
+		echo '11';
+		echo sign('sdf');
+		
 	}
-
+	
 	/**
 	 * This is the action to handle external exceptions.
 	 */

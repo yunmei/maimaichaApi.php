@@ -1,24 +1,18 @@
 <?php
 
 /**
- * This is the model class for table "{{order_log}}".
+ * This is the model class for table "{{text}}".
  *
- * The followings are the available columns in table '{{order_log}}':
- * @property integer $log_id
- * @property string $order_id
- * @property integer $op_id
- * @property string $op_name
- * @property string $log_text
- * @property string $acttime
- * @property string $behavior
- * @property string $result
+ * The followings are the available columns in table '{{text}}':
+ * @property string $id
+ * @property string $text
  */
-class SdbOrderLog extends CActiveRecord
+class Text extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return SdbOrderLog the static model class
+	 * @return Text the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -30,7 +24,7 @@ class SdbOrderLog extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return '{{order_log}}';
+		return '{{text}}';
 	}
 
 	/**
@@ -41,15 +35,10 @@ class SdbOrderLog extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('op_id', 'numerical', 'integerOnly'=>true),
-			array('order_id, behavior', 'length', 'max'=>20),
-			array('op_name', 'length', 'max'=>30),
-			array('acttime', 'length', 'max'=>10),
-			array('result', 'length', 'max'=>7),
-			array('log_text', 'safe'),
+			array('text', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('log_id, order_id, op_id, op_name, log_text, acttime, behavior, result', 'safe', 'on'=>'search'),
+			array('id, text', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -70,14 +59,8 @@ class SdbOrderLog extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'log_id' => 'Log',
-			'order_id' => 'Order',
-			'op_id' => 'Op',
-			'op_name' => 'Op Name',
-			'log_text' => 'Log Text',
-			'acttime' => 'Acttime',
-			'behavior' => 'Behavior',
-			'result' => 'Result',
+			'id' => 'ID',
+			'text' => 'Text',
 		);
 	}
 
@@ -92,14 +75,8 @@ class SdbOrderLog extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('log_id',$this->log_id);
-		$criteria->compare('order_id',$this->order_id,true);
-		$criteria->compare('op_id',$this->op_id);
-		$criteria->compare('op_name',$this->op_name,true);
-		$criteria->compare('log_text',$this->log_text,true);
-		$criteria->compare('acttime',$this->acttime,true);
-		$criteria->compare('behavior',$this->behavior,true);
-		$criteria->compare('result',$this->result,true);
+		$criteria->compare('id',$this->id,true);
+		$criteria->compare('text',$this->text,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
